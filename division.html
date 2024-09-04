@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Div tag</title>
+  <style>
+
+    #header{
+      margin-bottom: 2px;
+      height: 50px;
+      border: 2px solid black;
+      background-color: #b3d4fc;
+      text-align: center;
+    }
+
+    /*.content{*/
+    /*  display: flex;*/
+    /*  gap: 2px;*/
+    /*  margin-bottom: 2px;*/
+    /*}*/
+
+    #sidebar-left{
+      width: 14%;
+      border: 2px solid black;
+      float: left;
+      background-color: #555555;
+    }
+
+    #main{
+      width: 69%;
+      float: left;
+      border: 2px solid black;
+      background-color: aquamarine;
+    }
+
+    #sidebar-right{
+      width: 15%;
+      border: 2px solid black;
+      float: left;
+      background-color: cadetblue;
+    }
+    #sidebar-left, #main, #sidebar-right{
+      min-height: 600px;
+      margin: 2px;
+    }
+    #footer{
+      height: 50px;
+      border: 2px solid black;
+      text-align: center;
+      background-color: #b3d4fc;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+<!--    <div class="header"></div>-->
+<!--    <div class="content">-->
+<!--      <div class="side"></div>-->
+<!--      <div class="article"></div>-->
+<!--    </div>-->
+<!--    <div class="footer"></div>-->
+
+    <div id="header"></div>
+<!--    <div class="content">-->
+    <div id="sidebar-left"></div>
+    <div id="main"></div>
+    <div id="sidebar-right"></div>
+<!--    </div>-->
+    <div id="footer"></div>
+</body>
+</html>
