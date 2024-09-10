@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project</title>
+</head>
+<style>
+  *{
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+    background-color: #f1e6d4;
+  }
+
+  .li{
+    cursor: pointer;
+  }
+  header{
+    padding: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .logo{
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav{
+    display: flex;
+    list-style: none;
+    gap: 2vw;
+    align-items: center;
+  }
+
+  .StartBtn{
+    padding: .5vw 1vw;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .image{
+    width: 30vw;
+  }
+
+  .content{
+    width: 75%;
+    padding: 100px;
+  }
+
+  .ideas{
+    font-size: 100px;
+  }
+
+  .punchline{
+    padding-top: 25px;
+    font-size: 25px;
+  }
+
+  .nxtbtn{
+    padding: 2vh 2vw;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 35px;
+  }
+
+</style>
+<body>
+    <header>
+      <div>
+        <a href="#" class="logo">Medium</a>
+      </div>
+      <ul class="nav">
+        <li class="li">Our Story</li>
+        <li class="li">Membership</li>
+        <li class="li">Write</li>
+        <li class="li">Sign In</li>
+        <button class="StartBtn li">Get Started</button>
+      </ul>
+    </header>
+    <main>
+      <div class="content">
+        <div class="ideas">
+          Human <br>Stories & ideas
+        </div>
+        <div class="punchline">
+          A place to read, write, and deepen your understanding
+        </div>
+        <button class="StartBtn li nxtbtn">Start Reading</button>
+      </div>
+      <div class="img">
+        <img class="image" src="img/4_SdjkdS98aKH76I8eD0_qjw.jpeg" alt="">
+      </div>
+    </main>
+</body>
+</html>
